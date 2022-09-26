@@ -123,6 +123,62 @@ body {
   letter-spacing: 0.75;
 }
 
+.btn--form {
+  background-color: #002958;
+  color: #fff;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #002958;
+  border: 1px solid #002958;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 1.6rem 3.2rem;
+  text-decoration: none;
+  font-size: 2rem;
+  border-radius: 1rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.btn--primary:link,
+.btn--primary:visited {
+  background-color: #e67e22;
+  color: #fff;
+
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn--primary:hover,
+.btn--primary:active {
+  background-color: #e98b38;
+  color: #eee;
+}
+
+.btn--secondary:link,
+.btn--secondary:visited {
+  background-color: #f8d8bd;
+  color: #555;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.btn--secondary:hover,
+.btn--secondary:active {
+  background-color: #fae5d3;
+  color: #000;
+  box-shadow: inset 0 0 0 3px #f8d8bd;
+}
+
 .list {
   list-style: none;
   display: flex;
