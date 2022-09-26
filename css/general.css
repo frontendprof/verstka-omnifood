@@ -55,12 +55,20 @@ body {
   gap: 9.6rem;
 }
 
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
 .grid--cols-2 {
   grid-template-columns: repeat(2, 1fr);
 }
 
 .grid--cols-3 {
   grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--cols-4 {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .grid--center-v {
@@ -113,4 +121,24 @@ body {
   margin-bottom: 1.6rem;
   text-transform: uppercase;
   letter-spacing: 0.75;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #e67e22;
 }
