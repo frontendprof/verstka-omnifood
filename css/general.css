@@ -71,6 +71,10 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--footer {
+  grid-template-columns: 1.8fr 1.2fr 1fr 1fr 1fr;
+}
+
 .grid--center-v {
   align-items: center;
 }
