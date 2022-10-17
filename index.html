@@ -1,4 +1,4 @@
-?<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -13,10 +13,7 @@
 
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link
-      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="css/queries.css" />
 
     <title>Omnifood</title>
   </head>
@@ -38,6 +35,11 @@
           <li><a href="#" class="main-nav-link item-last">Try for free</a></li>
         </ul>
       </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close"></ion-icon>
+      </button>
     </header>
     <main>
       <section class="section-hero">
@@ -670,7 +672,14 @@
       </div>
     </footer>
 
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
 fo
