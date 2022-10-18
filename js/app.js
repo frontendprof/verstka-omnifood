@@ -35,3 +35,26 @@ hrefEls.forEach((link) => {
       headerEl.classList.toggle('nav-open');
   });
 });
+
+// Fixed navigation
+const sectionHeroEl = document.querySelector('.section-hero');
+
+const obs = new IntersectionObserver(
+  function (entries) {
+    const ent = entries[0];
+    console.log(ent);
+    if (!ent.isIntersecting) {
+      document.body.classList.add('fixed');
+    }
+    if (ent.isIntersecting) {
+      document.body.classList.remove('fixed');
+    }
+  },
+  {
+    root: null,
+    threshold: 0,
+    rootMargin: '-160px',
+  }
+);
+
+obs.observe(sectionHeroEl);
