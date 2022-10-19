@@ -517,7 +517,7 @@
       hsla(28, 95%, 64%, 0.3),
       hsla(28, 82%, 51%, 0.3)
     ),
-    url('../content/img/eating.jpg');
+    url('../content/img/eating.webp');
   background-size: cover;
 }
 
